@@ -1,8 +1,8 @@
 body {
-    background-color: grey;
+    background-color: lightgrey;
 }
 
-.main-container {
+.parent-container {
     display: flex;
     margin-left: 7%;
     margin-right: 7%;
@@ -10,12 +10,36 @@ body {
 
 nav {
     float: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: white;
     width: 20%;
     text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+.profile-img {
+    align-self: center;
+    width: 50%;
+    height: auto;
+    /*padding: 2% 0 2% 0;*/
 }
 
 .right-container {
@@ -49,9 +73,43 @@ nav {
 }
 
 .about-me {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-img-container {
+    display: flex;
+    justify-content: center;
 
 }
 
+.about-img {
+    width: 50%;
+    height: auto;
+}
+
+.about-description-container {
+    width: 50%;
+}
+
+
 .contact {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
