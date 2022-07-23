@@ -1,0 +1,40 @@
+body {
+    background-color: grey;
+}
+
+.main-container {
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+nav {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+}
+
+.right-container {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+    width: 80%;
+}
+
+.portfolio {
+
+}
+
+.about-me {
+
+}
+
+.contact {
+    
+}
