@@ -5,152 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css"/>
-    <title>Pizza Plaza Place</title>
+    <script src="https://kit.fontawesome.com/ef94937215.js" crossorigin="anonymous"></script>
+
+    <title>Anthony's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="main-nav" id="main-nav">
-        <ul class="main-nav-items" id="main-nav-items">
-            <li>
-                <a href="#" class="home-link" id="home-link">HOME</a>
-            </li>
-
-            <li>
-                <a href="#menu" class="menu-link" id="menu-link">MENU</a>
-            </li>
-
-            <li>
-                <a href="#about" class="about-link" id="about-link">ABOUT</a>
-            </li>
-
-            <li>
-                <a href="#contact" class="contact-link" id="contact-link">CONTACT</a>
-            </li>
-        </ul>
-
-        <!-- Bars for responsive design -->
-        <div class="hamburger-bars" id="hamburger-bars">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav>
-
-    <header class="hero" id="hero">
-        <div>
-            <span class="restaurant-name">ARTISAN PIZZA</span>
-        </div>
-        <div>
-            <span><a href="#menu" class="hero-menu" id="hero-menu">SEE OUR MENU</a></span>
-        </div>
-        <div>
-            <span class="open-time" id="open-time">OPEN FROM 10AM TO 10PM</span>
-        </div>
-    </header>
-
-    <section class="menu" id="menu">
-        <div class="menu-container" id="menu-container">
-
-            <!-- Click on menu nav categories to show the appropriate menu -->
-            <!-- Keep highlighted color on chosen menu nav category -->
-            <h1 class="menu-heading" id="meanu-heading">THE MENU</h1>
-            <div class="menu-nav" id="menu-nav">
-                <a class="pizza-menu" id="pizza-menu">
-                    <div class="pizza" id="pizza">Pizza</div>
-                </a>
-                <a class="sides-menu" id="sides-menu">
-                    <div class="sides" id="sides">Sides</div>
-                </a>
-                <a class="starter-menu" id="starter-menu">
-                    <div class="starter" id="starter">Starter</div>
-                </a>
+    <div class="parent-container" id="parent-container">
+        <nav>
+            <div class="nav-container">
+                <h1>Anthony Tong</h1>
+                <img class="profile-img" id="profile-img" src="assets/images/linkedin-pfp.jpg">
+                <a class="active" href="#portfolio">Portfolio</a>
+                <a href="#about-me">About Me</a>
+                <a href="#contact">Contact</a>
+                <a href="#"><i class="fa-brands fa-linkedin" style="font-size: larger;"></i></a>
             </div>
+        </nav>
 
-            <!-- Pizza Menu -->
-            <div class="pizza-container" id="pizza-container">
-                <h2>Our Special Handmade Pizzas:</h2>
+        <div class="right-container" id="right-container">
 
-                <h1>MEAT THE ARTISAN<span class="item-price" id="item-price">$22.00</span></h1>
-                <P class="item-description" id="item-description">Pepperoni, Sausage, Fresh Tomatoes, Mozzarella</P>
+            <section class="portfolio" id="portfolio"> 
+                <div class="portfolio-container">
+                    <div class="project-card" id="project-card">
+                        <img src="assets/rocks.png">
+                        <h3>Project Name</h3>
+                        <p>Project Description</p>
+                        <a>Check it out</a>
+                    </div>
 
-                <h1>MARGHERITA<span class="item-price" id="item-price">$15.00</span></h1>
-                <P class="item-description" id="item-description">Fresh Tomatoes, Mozzarella, Fresh Basil</P>
+                    <div class="project-card" id="project-card">
+                        <img src="assets/restaurant.png">
+                        <h3>Project Name</h3>
+                        <p>Project Description</p>
+                        <a>Check it out</a>
+                    </div>
 
-                <h1>FORMAGGIO<span class="item-price" id="item-price">$17.50</span></h1>
-                <P class="item-description" id="item-description">Four Cheeses (Mozzarella, Parmesan, Pecorino, Jarlsberg)</P>
-            </div>
+                    <div class="project-card" id="project-card">
+                        <img src="assets/email.png">
+                        <h3>Project Name</h3>
+                        <p>Project Description</p>
+                        <a>Check it out</a>
+                    </div>
 
-            <!-- Sides Menu -->
-            <div class="sides-container" id="sides-container">
-                <h2>Delicious Compliments To Our Pizza:</h2>
+                    <div class="project-card" id="project-card">
+                        <img src="assets/etch.png">
+                        <h3>Project Name</h3>
+                        <p>Project Description</p>
+                        <a>Check it out</a>
+                    </div>
+                </div>
+            </section>
 
-                <h1>CLASSIC SPAGHETTI<span class="item-price" id="item-price">$12.00</span></h1>
-                <P class="item-description" id="item-description">Fresh Tomatoes, Onions, Ground Beef</P>
+            <section class="about-me" id="about-me">
+                <h1>About</h1>
+                <div class="about-img-container">
+                    <img class="about-img" src="assets/images/about-img.jpg">
+                </div>
 
-                <h1>FETTUCCINE ALFREDO<span class="item-price" id="item-price">$15.00</span></h1>
-                <P class="item-description" id="item-description">Chicken, Parmesan, Creamy Butter, Garlic</P>
+                <div class="about-description-container">
+                    <h3>Anthony Tong</h3>
+                    <p>Description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>                
+            </section>
 
-                <h1>SEAFOOD PASTA<span class="item-price" id="item-price">$24.50</span></h1>
-                <P class="item-description" id="item-description">Shrimp, Lobster, Garlic</P>
-            </div>
+            <section class="contact" id="contact">
+                <h1>Contact Info</h1>
+                <div class="contact-container" id="contact-container">
+                    <div>Email</div>
+                    <div>Phone</div>
+                    <div>LinkedIn</div>
+                </div>
+            </section>
 
-            <!-- Starter Menu -->
-            <div class="starter-container" id="starter-container">
-                <h2>Entrees To Get You Started:</h2>
-
-                <h1>TODAY'S SOUP<span class="item-price" id="item-price">$5.50</span></h1>
-                <P class="item-description" id="item-description" style="font-style: italic;">*Ask Your Waiter*</P>
-
-                <h1>GARLIC BREAD<span class="item-price" id="item-price">$9.50</span></h1>
-                <P class="item-description" id="item-description">Grilled Ciabatta, Garlic Butter, Onions</P>
-
-                <h1>CAESAR SALAD<span class="item-price" id="item-price">$7.50</span></h1>
-                <P class="item-description" id="item-description">Romaine, Caesar Dressing, Croutons, Parmesan</P>
-            </div>
+            <footer>POWERED BY MY LAST 2 BRAINCELLS</footer>
         </div>
-    </section>
+    </div>
 
-    <!-- About Us -->
-    <section class="about" id="about">    
-        <div class="about-container" id="about-container">
-            <h1>About Us</h1>
-            <p>The Pizza Plaza Place was established by the legendary Mr. Mario Luigi in 19XX. Serving the area for X decades,
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>We are proud of our legacy and our pizza.</p>
-
-            <img class="pizza-chef" src="assets/images/pizza-chef.jpg">
-
-            <!-- Opening Hours -->
-            <div class="hours" id="hours" style="font-size: larger;">Hours</div>
-                <div style="font-size: large;">Mon-Sat: 10am-10pm</div>
-        </div>
-    </section>
-
-    <!-- Image of location/map -->
-    <div class="location" id="location"></div>
-
-    <section class="contact" id="contact">        
-        <div class="contact-container" id="contact-container">
-            <h1>Contact Us</h1>
-            <p>Location: Pizza Plaza Place</p>
-            <p>Phone: 123-4567</p>
-            <p>We also offer catering services for your large or small events!</p>
-            <p>Reserve a table or ask a question:</p>
-            <form>
-                <input class="" type="text" placeholder="Name" required name="Name">
-                <input class="" type="number" placeholder="How Many People" required name="People">
-                <input class="" type="datetime-local" placeholder="Date and Time" required name="Date">
-                <input class="" type="text" placeholder="Message/Question" required name="Message">
-                <button class="" type="submit">SEND MESSAGE</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>Pizza Plaza Place (PPP) LLC</footer>
-
-    <script src="app.js"></script>
+    <script></script>
 </body>
 </html>
